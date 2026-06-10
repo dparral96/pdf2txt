@@ -2,6 +2,8 @@
 
 Aplicación web desarrollada en Python + Streamlit para extraer texto limpio desde archivos PDF.
 
+Basada en una versión modificada del código original **`pdf_to_text.ipynb`** desarrollado por **José Bustos Fonseca**, adaptada para ejecución mediante interfaz web en Streamlit.
+
 ## Funcionalidades
 
 * Carga de archivos PDF desde el navegador.
@@ -15,21 +17,14 @@ Aplicación web desarrollada en Python + Streamlit para extraer texto limpio des
 
 Acceder a la aplicación desde:
 
-[https://pdf2txt-260610.streamlit.app/]
+https://pdf2txt-260610.streamlit.app/
 
 Subir un archivo PDF y descargar el texto procesado.
 
 ## Ejecución local
 
-Instalar dependencias:
-
 ```bash
 pip install -r requirements.txt
-```
-
-Ejecutar:
-
-```bash
 streamlit run app.py
 ```
 
